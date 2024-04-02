@@ -1,0 +1,134 @@
+Very high	Low	High	Medium	Medium	Very high	Very high	Low	Low	Medium	Medium	High	Very high	Medium	Low	Low	Medium	High	2
+Medium	Medium	High	Low	Medium	Very high	Very high	Medium	Low	Medium	Medium	High	High	High	Low	Low	High	High	1
+Very high	Medium	Medium	Medium	Medium	Extremely high	Extremely high	Medium	Low	Medium	Medium	High	Medium	Medium	Low	Low	Medium	High	2
+High	Medium	Medium	Low	Medium	Very high	Very high	Medium	Medium	Medium	Medium	High	High	Medium	Medium	Medium	Medium	Medium	1
+High	Medium	Medium	Low	Medium	Very high	Very high	Medium	Medium	Medium	Medium	High	Medium	Medium	Low	Low	Low	High	1
+High	Medium	Medium	Low	Medium	Very high	Very high	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Low	High	1
+Very high	Medium	High	Medium	Medium	Very high	Very high	Medium	Medium	Medium	Medium	High	Medium	Medium	Low	Low	Low	High	1
+High	Medium	High	Medium	Medium	Very high	Very high	Medium	Low	Medium	Medium	High	Medium	Medium	Low	Low	Medium	High	2
+Very high	Low	Medium	Medium	Medium	Very high	Very high	Low	Medium	High	Very high	High	Medium	Medium	Low	Low	Medium	High	1
+Very high	Medium	High	Medium	High	Extremely high	Extremely high	Medium	Low	Medium	Medium	High	High	Medium	Low	Low	Low	Medium	1
+Very high	Medium	High	Medium	High	Very high	Very high	Medium	Medium	Medium	Medium	High	Medium	Medium	Low	Low	Low	High	1
+Very high	Medium	Medium	Medium	High	Very high	Very high	Medium	Medium	Medium	High	High	Medium	Medium	Medium	Low	Low	High	1
+Very high	Medium	Medium	Medium	High	Very high	Very high	Medium	Low	Medium	Medium	High	Medium	Medium	Medium	Low	Low	High	1
+Very high	Medium	Medium	Medium	Medium	Very high	Very high	Medium	Medium	Medium	Medium	High	High	Medium	Low	Low	Medium	High	1
+Very high	Medium	Medium	Medium	Medium	Extremely high	Extremely high	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Low	Low	Low	High	2
+Very high	Medium	High	Medium	Medium	Very high	Very high	Low	Low	Medium	Medium	High	Medium	Medium	Low	Low	Low	High	1
+Very high	Medium	Medium	Medium	High	Very high	Very high	Medium	Medium	Medium	Medium	High	High	Medium	Low	Low	Medium	High	1
+Very high	Low	Medium	High	Medium	Extremely high	Extremely high	Medium	Low	Medium	Medium	High	High	High	Low	Low	Medium	High	2
+Very high	Low	High	Medium	Medium	Extremely high	Extremely high	Low	Medium	Medium	Very high	Medium	Medium	Medium	Medium	Low	Low	High	2
+Very high	Medium	High	Medium	High	Extremely high	Very high	Medium	Medium	High	Medium	Very high	Medium	Medium	Low	Low	Low	High	2
+Very high	Medium	High	High	Medium	Very high	Very high	Medium	Medium	High	Medium	High	Medium	Medium	Low	Low	Medium	High	1
+Medium	Medium	Medium	Low	Medium	Very high	Very high	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Low	Low	High	1
+Medium	Medium	Medium	Low	Very high	Extremely high	Extremely high	Medium	Medium	Medium	Medium	High	Medium	Medium	Low	Low	Medium	High	2
+Very high	Medium	Medium	Medium	High	Very high	Very high	Medium	Medium	Medium	Medium	High	Medium	Medium	Medium	Low	Low	High	1
+Medium	Medium	High	Low	High	Extremely high	Extremely high	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Low	Low	Medium	High	2
+Very high	Medium	Medium	Medium	Very high	Very high	Medium	Medium	Medium	Medium	Medium	High	Medium	Medium	Low	Low	Medium	High	1
+Medium	Medium	High	Low	High	Very high	Very high	Low	Medium	Medium	Medium	High	Medium	Medium	Low	Low	Low	High	1
+Very high	Medium	High	Medium	High	Very high	Very high	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Low	High	1
+Extremely high	Medium	Medium	High	High	Extremely high	Extremely high	Medium	Low	Medium	Medium	High	Medium	Medium	Low	Low	Medium	High	2
+Very high	Medium	Medium	Low		Very high	Very high	Medium	Medium	Medium	Medium	High	Medium	Medium	Low	Low	Low	High	1
+Very high	Low	High	Medium	High	Extremely high	Extremely high	Low	Low	High	Medium	High	Medium	Medium	Low	Low	High	High	2
+Very high	Low	Medium	Medium	Medium	Very high	Extremely high	Medium	Medium	Medium	Medium	High	Medium	Medium	Low	Low	Low	High	2
+High	Medium	High	Medium	Very high	Very high	Extremely high	Low	High	Medium	Medium	High	Medium	Medium	Medium	Low	Low	High	1
+High	Medium	High	Low	High	Very high	Very high	Medium	Medium	Medium	Medium	High	Medium	Medium	Medium	Medium	Low	High	1
+Very high	Medium	High	Medium	Medium	Very high	Very high	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Low	Low	Low	High	1
+Very high	Low	Medium	Medium	Medium	Very high	Very high	Low	Medium	Medium	Medium	High	Medium	Medium	Low	Low	Low	High	1
+Very high	Medium	Medium	Medium	High	Very high	Very high	Medium	Medium	Medium	Medium	High	Medium	Medium	Low	Low	Low	High	2
+Very high	Medium	High	Low	High	Extremely high	Very high	High	Medium	Medium	Medium	Medium	Medium	Medium	Low	Low	Medium	High	2
+Very high	Low	Medium	Medium	High	Very high	Extremely high	Low	Medium	Medium	Medium	Medium	Medium	Medium	Low	Low	Low	High	1
+High	Medium	Medium	Low	High	Very high	Extremely high	Low	Medium	Medium	Medium	High	Medium	Medium	Low	Low	Low	High	2
+Very high	Medium	Medium	Medium	High	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Low	Medium	0
+Medium	Medium	Medium	Low	Medium	Low	Medium	Medium	Medium	Medium	Medium		Medium	Medium	Medium	Low	Low	Medium	0
+Very high	Low	Medium	Medium	Medium	Medium	Medium	Low	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Low	Medium	0
+High	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Low	Medium	0
+Very high	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Low	Low	Low	Medium	0
+Medium	Medium	Medium	Low	High	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Low	Medium	0
+High	Medium	Medium	Low	High	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Low	Medium	0
+High	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Low	Medium	0
+High	Medium	Medium	Low	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Low	Medium	0
+High	Low	Medium	Low	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Low	Medium	0
+High	Medium	Medium	Low	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Low	Medium	0
+Medium	Medium	Medium	Low	High	Medium	Medium	High	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Low	Medium	0
+High	Medium	Medium	Medium	High	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Low	Low	Medium	0
+Very high	Medium	Medium	Low	High	Medium	Medium	Medium	Medium	Medium	Medium	High	Medium	Medium	Medium	Low	Low	Medium	0
+High	Medium	Medium	Low	Medium	Medium	Medium	Medium	Low	Medium	Medium	High	Medium	Medium	Medium	Low	Low	Medium	0
+High	Low	Medium	Low	Medium	Medium	Medium	Low	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Low	Medium	0
+High	Medium	Medium	Low	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Low	Medium	0
+High	Medium	Medium	Low	High	Medium	Medium	Very high	Low	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Low	Medium	0
+Very high	Medium	High	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Low	Medium	Low	Medium	0
+Very high	Medium	Medium	Medium		Medium	Medium	Medium	Medium	Medium	Medium	High	Medium	Medium	Medium	Medium	Low	Medium	0
+High	Medium	Medium	Low	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Low	Medium	0
+High	Medium	High	Medium	High	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Low	Medium	0
+Very high	Medium	Medium	Medium	Medium	High	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Low	Medium	0
+Medium	Low	Medium	Low	High	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Low	Medium	0
+High	Medium	Medium	Low	Medium	Medium	Medium	Medium	Medium	Low	Medium	Medium	Medium	Medium	Medium	Low	Low	Medium	0
+High	Medium	Medium	Medium	High	Medium	Medium	Medium	Medium	Medium	Medium	High	Medium	Medium	Medium	Medium	Low	Medium	0
+Very high	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Low	Low	Medium	0
+Very high	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Low	Medium	0
+Extremely high	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Low	Medium	0
+High	Medium	Medium	Medium	High	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Low	Medium	0
+Very high	Low	Medium	High	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Low	Medium	Low	Medium	0
+High	Medium	Medium	Low	Medium	Medium	Medium	Medium	Medium	Medium	Medium	High	Medium	Medium	Medium	Medium	Medium	Medium	0
+Very high	Medium	Medium	Medium	High	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Low	Low	Medium	0
+Medium	Medium	High	Low	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Low	Medium	0
+High	Medium	High	Low	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Low	Medium	0
+Very high	Medium	High	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Low	Medium	0
+Very high	Medium	High	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Low	Medium	0
+High	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	0
+Medium	Low	High	Low	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Low	Medium	0
+High	Medium	High	Low	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Low	Medium	0
+Extremely high	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Low	Medium	0
+High	Low	Medium	Low	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Low	Medium	0
+High	Medium	Medium	Low	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Low	Medium	0
+Extremely high	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Low	Medium	0
+High	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Low	Medium	0
+High	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Low	Medium	Low	Medium	0
+High	Medium	Medium	Low	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Low	Medium	0
+High	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Low	Medium	0
+Medium	Medium	High	Low	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Low	Medium	0
+Extremely high	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Low	Medium	0
+High	Medium	Medium	Low	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Low	Medium	0
+High	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Low	Medium	0
+High	Medium	Medium	Medium	High	Medium	Low	Medium	Medium	Medium	Very high	Medium	Medium	Medium	Medium	Medium	Medium	Medium	0
+Medium	Medium	Medium	Low	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Low	Medium	0
+High	Medium	Medium	Low	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Low	Medium	0
+Very high	Medium	Medium	Medium	Medium	High	Medium	High	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Low	Medium	0
+Very high	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Low	Medium	0
+High	Medium	Medium	Low	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Low	Low	Medium	0
+High	Medium	Medium	Low	Medium	Medium	Medium	Medium	Medium	Medium	Medium	High	Medium	Medium	Medium	Medium	Low	Medium	0
+High	Medium	Medium	Medium		Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Low	Medium	Low	Medium	0
+High	Medium	Medium	Low	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Low	Medium	0
+Very high	Low	High	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Low	Medium	0
+Very high	Medium	High	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Low	Medium	0
+Very high	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Low	Medium	0
+Very high	Medium	High	Medium	Medium	Medium	Medium	Low	Medium	Medium	Medium	High	Medium	Medium	Low	Low	Low	Medium	0
+High	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Low	Medium	0
+Very high	Medium	Medium	Low	Medium	Medium	Medium	Medium	Medium	Medium	Low	Medium	Medium	Medium	Medium	Medium	Low	Medium	0
+High	Medium	Medium	Low	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Low	Medium	Low	Medium	0
+High	Medium	High	Low	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Low	Medium	0
+Very high	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Low	Medium	0
+Extremely high	Medium	Medium	Low	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Low	High	0
+High	Medium	Medium	Low	High	Medium	Medium	Medium	Medium	Medium	Medium	High	Medium	Medium	Medium	Medium	Low	Medium	0
+High	Medium	Medium	Low	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Low	Medium	0
+High	Medium	Medium	Low	High	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Low	Medium	0
+High	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Low	Medium	0
+High	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Low	Medium	0
+High	Medium	Medium	Low	High	Very high	Very high	Low	Medium	Medium	Medium	Medium	Medium	Medium	Low	Low	Medium	High	1
+High	Medium	Medium	Low	High	Very high	Extremely high	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Low	Low	Low	High	1
+High	Medium	Medium	Low	High	Very high	Very high	Medium	Medium	Medium	Medium	High	Medium	Medium	Low	Low	Low	High	2
+High	Medium	Medium	Low	High	Extremely high	Extremely high	Low	Medium	Medium	Very high	High	Very high	Very high	Low	Low	High	High	2
+High	Low	High	Low	Medium	Very high	Very high	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Low	Low	Low	High	1
+Very high	Low	Medium	Medium	Medium	Very high	Extremely high	Low	Low	High	High	Medium	Very high	Extremely high	Low	Low	High	High	2
+Very high	Low	Medium	Medium	Medium	Very high	Very high	Medium	Medium	Medium	Medium	High	Medium	Medium	Medium	Low	Medium	High	1
+Very high	Medium	Medium	Medium	Medium	Very high	Very high	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Low	Low	Low	High	1
+Very high	Medium	Medium	Low	Medium	Very high	Very high	Medium	Medium	Medium	Medium	High	Medium	Medium	Low	Low	Low	High	1
+Very high	Low	High	Medium	High	Very high	Very high	Medium	Medium	Medium	Medium	Medium	Medium	Medium	Low	Low	Medium	High	2
+High	Medium	High	Low	High	Very high	Very high	Medium	Medium	Medium	Medium	High	Medium	Medium	Medium	Low	Low	High	1
+Extremely high	Medium	High	Medium	High	Very high	Extremely high	Medium	Low	Medium	Medium	High	Medium	Medium	Medium	Low	Low	High	1
+Very high	Low	High	Medium	Medium	Very high	Very high	Low	Low	Medium	Medium	Medium	High	Medium	Low	Low	Low	High	1
+Medium	Medium	High	Low	High	Very high	Very high	Low	Medium	Medium	Medium	High	Medium	Medium	Medium	Low	Low	High	1
+High	Medium	Medium	Low	High	Very high	Very high	Medium	Medium	Medium	Medium	High	Medium	Medium	Medium	Low	Low	High	1
+Very high	Medium	Medium	Medium	High	Very high	Very high	Medium	Low	Medium	Medium	High	Medium	Medium	Low	Low	Low	High	1
+Very high	Medium	Medium	Medium	High	Very high	Very high	Medium	Medium	Medium	Medium	Very high	Medium	Medium	Low	Low	Medium	High	1
+Very high	Medium	Medium	Medium	High	Very high	High	Medium	Medium	Medium	Medium	High	Medium	Medium	Low	Low	Medium	High	2
