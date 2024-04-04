@@ -97,18 +97,20 @@ public class FuzzyKnowledgeGraph {
         return M;
     }
     public static double[][] calculateB(List<List<String>> base, double[][] A, double[][] M) {
-        int colum = base.get(0).size();
+        int column = base.get(0).size();
         int row = base.size();
-        double[][] B = new double[row][combination(3, colum - 1)];
+        double[][] B = new double[row][combination(4, column - 1)];
 
         for (int r = 0; r < row; r++) {
             int temp = 0;
-            for (int a = 0; a < colum - 3; a++) {
-                for (int b = a + 1; b < colum - 2; b++) {
-                    for (int c = b + 1; c < colum - 1; c++) {
-                        double minM = Math.min(Math.min(M[r][a], M[r][b]), M[r][c]);
-                        B[r][temp] = sumOfArray(A[r]) * minM;
-                        temp++;
+            for(int a1 = 0; a1 < column - 4; a1++) {
+            	for (int a = a1+1; a < column - 3; a++) {
+                    for (int b = a + 1; b < column - 2; b++) {
+                        for (int c = b + 1; c < column - 1; c++) {
+                            double minM = Math.min(Math.min(Math.min(M[r][a], M[r][b]), M[r][c]), M[r][a1]);
+                            B[r][temp] = sumOfArray(A[r]) * minM;
+                            temp++;
+                        }
                     }
                 }
             }
@@ -125,19 +127,20 @@ public class FuzzyKnowledgeGraph {
     public static double[][] calculateC(List<List<String>> base, double[][] B) {
         int column = base.get(0).size();
         int row = base.size();
-        int cols = 3 * combination(3, column - 1);
+        int cols = 3 * combination(4, column - 1);// nhân 3 vì có 3 nhãn đầu ra
         double[][] C = new double[row][cols];
 
         for (int r1 = 0; r1 < row; r1++) {
             int temp = 0;
             for (int i = 0; i < 3; i++) {
-                for (int a = 0; a < (column - 3); a++) {
-                    for (int b = a + 1; b < (column - 2); b++) {
-                        for (int c = b + 1; c < (column - 1); c++) {
-                            for (int r2 = 0; r2 < row; r2++) {
-                                if (base.get(r1).get(a).equals(base.get(r2).get(a)) && base.get(r1).get(b).equals(base.get(r2).get(b))
-                                        && base.get(r1).get(c).equals(base.get(r2).get(c)) && base.get(r2).get(column - 1).equals(i)) {
-                                    C[r1][temp] += B[r2][temp % combination(3, column - 1)];
+                for(int a1 = 0; a1 < column - 4; a1++) {
+                	for (int a = a1 + 1; a < (column - 3); a++) {
+                        for (int b = a + 1; b < (column - 2); b++) {
+                            for (int c = b + 1; c < (column - 1); c++) {
+                                for (int r2 = 0; r2 < row; r2++) {
+                                    if(base.get(r1).get(a1).equals(base.get(r2).get(a1)) && base.get(r1).get(a).equals(base.get(r2).get(a)) && base.get(r1).get(b).equals(base.get(r2).get(b)) && base.get(r1).get(c).equals(base.get(r2).get(c)) && base.get(r1).get(column - 1).equals(base.get(r2).get(column - 1)) && base.get(r1).get(column - 1).equals(String.valueOf(i))) {
+                                    	C[r1][temp] += B[r2][temp % combination(4, column - 1)];
+                                    }
                                 }
                                 temp++;
                             }
@@ -150,38 +153,84 @@ public class FuzzyKnowledgeGraph {
     }
 
     // Hàm tính độ đồng thuận FISA
-    public double calculateFISA(String attributeName, String attributeValue) {
-        // Đây chỉ là một hàm mẫu, bạn cần thay thế bằng thuật toán FISA thực tế
-        // Đoạn mã này chỉ là mô phỏng và không phản ánh thực tế
-        if (attributeValue.equals("Nhỏ") && attributeName.equals("Tuổi")) {
-            return 0.7;
-        } else if (attributeValue.equals("Cán bộ") && attributeName.equals("Công việc")) {
-            return 0.8;
-        } else {
-            return 0.5;
-        }
-    }
+    public static int fisa(List<List<String>> base, double[][] C, List<String> list) {
+        int column = base.get(0).size();
+        int row = base.size();
 
-    // Dự đoán nhãn cho mẫu dữ liệu mới
-    public String predictLabel(String[][] newData) {
-        double maxSimilarity = 0;
-        String predictedLabel = "";
+        int cols = combination(4, (column - 1));
+        double[] C0 = new double[cols];
+        double[] C1 = new double[cols];
+        double[] C2 = new double[cols];
 
-        // Lặp qua mỗi thuộc tính trong dữ liệu mới
-        for (String[] dataRow : newData) {
-            String attributeName = dataRow[0]; // Tên thuộc tính
-            String attributeValue = dataRow[1]; // Giá trị thuộc tính
-
-            // Tính độ đồng thuận FISA cho mỗi thuộc tính và lưu lại giá trị lớn nhất
-            double similarity = calculateFISA(attributeName, attributeValue);
-            if (similarity > maxSimilarity) {
-                maxSimilarity = similarity;
-                predictedLabel = attributeValue; // Giả sử nhãn được dự đoán chính là giá trị của thuộc tính
+        int t = 0;
+        for(int a1 = 0; a1 < column - 4; a1++) {
+        	for (int a = a1 + 1; a < column - 3; a++) {
+                for (int b = a + 1; b < column - 2; b++) {
+                    for (int c = b + 1; c < column - 1; c++) {
+                        for (int r = 0; r < row - 1; r++) {
+                            if (base.get(r).get(a1).equals(list.get(a1)) && base.get(r).get(a).equals(list.get(a)) && base.get(r).get(b).equals(list.get(b)) && base.get(r).get(c).equals(list.get(c)) && Integer.parseInt(base.get(r).get(column - 1)) == 0) {
+                                C0[t] = C[r][t + 0 * cols];
+                                break;
+                            }
+                            if (base.get(r).get(a1).equals(list.get(a1)) && base.get(r).get(a).equals(list.get(a)) && base.get(r).get(b).equals(list.get(b)) && base.get(r).get(c).equals(list.get(c)) && Integer.parseInt(base.get(r).get(column - 1)) == 1) {
+                                C1[t] = C[r][t + 1 * cols];
+                                break;
+                            }
+                            if (base.get(r).get(a1).equals(list.get(a1)) && base.get(r).get(a).equals(list.get(a)) && base.get(r).get(b).equals(list.get(b)) && base.get(r).get(c).equals(list.get(c)) && Integer.parseInt(base.get(r).get(column - 1)) == 2) {
+                                C2[t] = C[r][t + 2 * cols];
+                                break;
+                            }
+                        }
+                        t++;
+                    }
+                }
             }
         }
 
-        return predictedLabel;
+        double D0 = getMax(C0) + getMin(C0);
+        double D1 = getMax(C1) + getMin(C1);
+        double D2 = getMax(C2) + getMin(C2);
+
+        if (D0 > D1 && D0 > D2) {
+            return 0;
+        } else if (D1 > D2) {
+            return 1;
+        } else {
+            return 2;
+        }
     }
+    private static double getMax(double[] arr) {
+        double max = arr[0];
+        for (double num : arr) {
+            if (num > max) {
+                max = num;
+            }
+        }
+        return max;
+    }
+
+    private static double getMin(double[] arr) {
+        double min = arr[0];
+        for (double num : arr) {
+            if (num < min) {
+                min = num;
+            }
+        }
+        return min;
+    }
+    public static void testAccuracy(List<List<String>> base, double[][] C) {
+    	String fileName = "DataTest.txt"; // Thay đổi tên file tương ứng
+    	List<List<String>> test = importFuzzyData(fileName);
+        
+        int X[] = new int[test.size()];
+        for (int i = 0; i < test.size(); i++) {
+            X[i] = fisa(base, C, test.get(i));
+        }
+        writeToTextFile("Result", X, "Result.txt");
+        
+    }
+    // Dự đoán nhãn cho mẫu dữ liệu mới
+    
     public static List<List<String>> importFuzzyData(String fileName) {
     	List<List<String>> base = new ArrayList<>();
         BufferedReader reader = null;
@@ -229,8 +278,20 @@ public class FuzzyKnowledgeGraph {
         writeToTextFile("M", M, "MTM.txt");
         writeToTextFile("B", B, "MTB.txt");
         writeToTextFile("C", C, "MTC.txt");
-
+        testAccuracy(base, C);
         System.out.println("Update successful! Let's Start");
+    }
+    
+    public static void writeToTextFile(String sheetName, int[] data, String fileName) {
+        try (BufferedWriter writer = new BufferedWriter(new FileWriter(fileName, true))) {
+        	writer.write(sheetName + ":\n");
+            for (int value : data) {
+                writer.write(value + "\n");
+            }
+            writer.write("\n\n");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
     public static void writeToTextFile(String sheetName, double[][] data, String fileName) {
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(fileName, true))) {
@@ -253,7 +314,7 @@ public class FuzzyKnowledgeGraph {
 
         // Gọi phương thức update()
         update();
-
+        
         long endTime = System.currentTimeMillis(); // Kết thúc đếm thời gian
         long executionTime = endTime - startTime; // Tính thời gian thực thi
         System.out.println("Time: " + executionTime + " milliseconds");
@@ -269,8 +330,7 @@ public class FuzzyKnowledgeGraph {
         };
 
         // Dự đoán nhãn cho dữ liệu mới
-        String predictedLabel = knowledgeGraph.predictLabel(newData);
-        System.out.println("Nhãn được dự đoán: " + predictedLabel);
+        
     }
 }
 
